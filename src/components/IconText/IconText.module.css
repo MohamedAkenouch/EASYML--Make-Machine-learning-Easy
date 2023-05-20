@@ -1,0 +1,16 @@
+.IconText {
+     
+}
+
+@media (max-width:1000px) {
+    .imgIcon {
+     width: 25%; 
+    }
+    .titleIcon{
+        font-size: 1.3em;
+    }
+    .textIcon{
+        font-size: 0.7em;
+    }
+}
+

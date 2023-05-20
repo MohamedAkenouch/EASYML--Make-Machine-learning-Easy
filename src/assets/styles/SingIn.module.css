@@ -1,0 +1,38 @@
+.signinPage{
+    margin-top: 8%; 
+
+}
+.youDHA{
+    text-align: right;
+} 
+.lineCenter{
+    width: 33%;
+    display: inline-block;
+    border-bottom: 2px solid black;
+    margin-bottom: 0.2em;
+}
+
+.Or{
+    display: inline-block;
+    margin: 0 0.5em;
+    padding: 0;
+}
+
+.forgetPasswordLink{
+    text-decoration: none;
+    color: #9378FF;
+    margin-right: 4.5em;
+}
+
+.forgetPasswordLink:hover{
+    color: #9378FF;
+}
+
+@media (max-width: 575px) {
+    .lineCenter{
+        width: 18%;
+    }
+    .youDHA{
+        text-align: center;
+    }    
+}

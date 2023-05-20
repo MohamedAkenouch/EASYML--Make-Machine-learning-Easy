@@ -1,0 +1,35 @@
+
+
+.ModelExpertCard {
+    margin: 2px;
+    padding: 8px 2px;
+    background-color: rgba(217, 147, 210, 0.4);
+    border-radius: 8px;
+    height: 120px;
+}
+
+.ModelExpertCard:hover {
+    background-color: rgba(217, 147, 210, 0.7);
+}
+
+.modelName {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Link:hover {
+    text-decoration: none;  
+}
+
+.modelName {
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.modelName:hover {
+    text-decoration: none;
+}

@@ -1,0 +1,22 @@
+.EasyMLLogo {
+
+}
+
+.EasyMLLogo .easyMLImg {
+    margin-bottom: 4%;
+    width: 80%;
+    height: auto;
+}
+
+.EasyMLLogo .easyMLTitle {
+    color: #442753;
+    margin-left: 0.01em;
+}
+
+@media (max-width: 600px) {
+    .EasyMLLogo .easyMLImg {
+        width: 70%;
+        height: auto;
+    }
+}
+

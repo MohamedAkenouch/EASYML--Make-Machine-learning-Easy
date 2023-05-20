@@ -1,0 +1,155 @@
+.HeaderLite {
+    background-image: url('../../assets/images/background.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.easyMLTitle{
+    color: white;
+    background: rgb(155, 54, 138);
+    border-radius: 8px;
+    padding: 4px 20px;
+    font-size: 2em;
+    margin-left: -0.9em;
+}
+
+.navLink{
+    text-align: center; 
+    padding: 0.5em .7em;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: white;
+}
+
+.navLink:hover{
+    background: rgba(155, 54, 138, 0.5);
+    border-radius: 8px;
+}
+
+.btnSingIn, .btnSingUp{
+    background-color: #D993D2;
+    border-radius: 34px;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.btnSingIn{
+    padding: 1px 1em;
+    margin-bottom: 2%;
+}
+
+.btnSingUp a{
+    color: white;
+    text-decoration: none;
+}
+
+.btnSingUp{
+    width: 22%;
+    margin-left: 0.5em;
+    padding: 0.2em 1em;
+    text-decoration: none;
+}
+
+.btnSingUp a:hover, .btnSingIn a span:hover{
+    text-decoration: none;
+}
+
+.btnSingIn a span {
+    text-decoration: none;
+}
+.linkSignIn:hover{
+    text-decoration: none;
+}
+.linkSignIn {
+    text-decoration: none;
+}
+.linkSignUp .btnSingUp {
+    text-decoration: none;
+    color:white;
+}
+.linkSignUp {
+    text-decoration: none;
+    color:white;
+}
+.linkSignUp:hover {
+    text-decoration: none;
+    color:white;
+}
+.titleStart{
+    margin: 50px 10px;
+    font-weight: bold;
+    font-size: 2.5em;
+    width: 55%;
+    color: white;
+}
+
+.marginbuttom{
+    height: 0.7em;
+}
+
+@media (max-width:990px) {
+    .floatRight{
+        position: static;
+    }
+}
+
+@media (max-width:750px) {
+    .titleStart{
+        width: 85%;
+        font-size: 2em;
+    }
+    
+}
+
+@media (max-width:330px) {
+    .easyMLTitle{
+        padding: 1px 0.5em;
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width:990px) {
+    .btnSingUp{
+        width: 60%;
+        margin-left: 0.5em;
+        padding: 0.2em 1em;
+        text-align: center;
+    }
+    .HeaderLite {
+        height: auto;
+    }
+}
+
+/* background svg responsivity */
+@media (min-width:1520px) {
+    .HeaderLite {
+        background-size: 1700px auto;
+    }
+}
+
+@media (max-width:1520px) and (min-width:1440px) {
+    .HeaderLite {
+        background-size: 1520px auto;
+    }
+}
+
+@media (max-width:1440px) and (min-width:1280px) {
+    .HeaderLite {
+        background-size: 1440px auto;
+    }
+}
+
+@media (max-width:1280px) {
+    .HeaderLite {
+        background-size: 1280px auto;
+    }
+}
+
+@media (max-width:990px) {
+    .HeaderLite {
+        background-size: auto 800px;
+    }
+}
+

@@ -1,0 +1,144 @@
+.Home{
+    
+}
+
+.whyEasyML{
+    background-image: url('../images/background2.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 100%;
+    color: white;
+    margin-top: -0.09%;
+}
+
+.numbersRating{
+    padding-top: 1em;
+    background-image: url('../images/background3.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #676767;
+    margin-top: -0.09%;
+}
+
+.ourModels{
+    text-align: center;
+    align-items: center;
+    background-image: url('../images/background4.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 3em;
+}
+
+.displaySlides{
+    display: none;
+    padding: 2em 0.5em;
+}
+
+.ourModels h2 {
+    text-align: start;
+    margin-left: 1em;
+}
+
+.blogs {
+    text-align: center;
+}
+
+
+
+@media (max-width:1000px) {
+    .displayNone{
+        display: none;
+    }
+    .displaySlides{
+        display: block;
+    }
+    .displayScreen{
+        display: none;
+    }
+}
+
+@media (max-width:780px) {
+    .ourModels h2 {
+        font-size: 1em;
+        font-weight: bold;
+    }
+}
+
+/* background svg responsivity */
+@media (min-width:1520px) {
+    .whyEasyML {
+        background-size: 1700px auto;
+    }
+}
+
+@media (max-width:1520px) and (min-width:1440px) {
+    .whyEasyML {
+        background-size: 1520px auto;
+    }
+}
+
+@media (max-width:1440px) and (min-width:1280px) {
+    .whyEasyML {
+        background-size: 1440px auto;
+        margin-top: -0.09%;
+    }
+}
+
+@media (max-width:1280px) {
+    .whyEasyML {
+        background-size: 1280px auto;
+    }
+}
+
+@media (min-width:1520px) {
+    .numbersRating {
+        background-size: 1700px auto;
+    }
+}
+
+@media (max-width:1520px) and (min-width:1440px) {
+    .numbersRating {
+        background-size: 1520px auto;
+    }
+}
+
+@media (max-width:1440px) and (min-width:1280px) {
+    .numbersRating {
+        background-size: 1440px auto;
+        margin-top: -0.09%;
+    }
+}
+
+@media (max-width:1280px) {
+    .numbersRating {
+        background-size: 1280px auto;
+        margin-top: 0;
+    }
+}
+
+@media (min-width:1520px) {
+    .ourModels {
+        background-size: 1700px auto;
+    }
+}
+
+@media (max-width:1520px) and (min-width:1440px) {
+    .ourModels {
+        background-size: 1520px auto;
+    }
+}
+
+@media (max-width:1440px) and (min-width:1280px) {
+    .ourModels {
+        background-size: 1440px auto;
+    }
+}
+
+@media (max-width:1280px) {
+    .ourModels {
+        background-size: 1280px auto;
+    }
+}
+
+

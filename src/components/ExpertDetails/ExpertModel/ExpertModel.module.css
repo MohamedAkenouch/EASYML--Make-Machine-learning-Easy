@@ -1,0 +1,25 @@
+
+
+.cards {
+    margin-top:1%;
+    margin-bottom:1%;
+    margin-right: 17%;
+    margin-left: 17%;
+}
+.cardHeader{
+    font-size: 2em;
+    padding-left: 5%;
+    background-color: #ac7a63;
+}
+.butt{
+    float: right;
+    background-color: #6b4181;
+    color: white;
+    font-weight: 600;
+    padding: 1.25% 2.5% ;
+}
+
+.butt:hover{
+    background-color: #481e5e;
+    color: white;
+}

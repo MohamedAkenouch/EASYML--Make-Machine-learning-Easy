@@ -1,0 +1,46 @@
+.BlogCard {
+    margin-top: 0;
+}
+
+.BlogCard img {
+    width: 90%;
+    height: 80%;
+}
+
+.BlogCard > div {
+    border: none;
+}
+
+.BlogCard h5 {
+    font-weight: bold;
+    padding-bottom: 1.5em;
+}
+
+.BlogCard p {
+    padding-bottom: 0.2em;
+    text-align: right;
+    font-weight: bold;
+}
+
+.BlogCard p a {
+    color: #850B0B;
+}
+
+.BlogCard p a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width:780px) {
+    .BlogCard img {
+        width: 55%;
+        margin: 0;
+        padding: 0;
+    }
+    .BlogCard h5 {
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+

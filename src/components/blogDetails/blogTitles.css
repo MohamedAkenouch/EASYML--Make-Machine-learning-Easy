@@ -1,0 +1,24 @@
+#title{
+    background-color: #442753;
+}
+#cardTitle{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 84px;
+    color: #FFFFFF;
+
+    padding-left: 100px;
+    padding-top: 120px;
+    padding-right: 100 px;
+
+
+}
+#myStyle{
+     
+    width: 100%;
+    border-color:#442753;
+    background-color: #442753;
+
+}

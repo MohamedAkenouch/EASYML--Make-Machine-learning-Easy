@@ -1,0 +1,61 @@
+
+.bgDeterm {
+    /* background-color: #C896DB; */
+    background-image: linear-gradient(to bottom, #D993D2, #e6a7de, #eecbe9);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 8px;
+    padding: 16px 16px 16px 24px;
+}
+
+.dHeader {
+    color: #503174;
+    font-size: 2em;
+    margin-left: 2%;
+    text-align: start;
+}
+
+.machineLearningForDummiesPDF {
+    text-decoration: none;
+    color: #503174;
+}
+
+.machineLearningForDummiesPDF:hover {
+    text-decoration: underline;
+    color: #503174;
+}
+
+.text1 {
+    text-align: center;
+    color: #503174;
+    opacity: 0.74;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.text2 {
+    color: #503174;
+    text-align: start;
+    padding: 2px;
+    width: 90%;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-left: 4%;
+}
+
+
+
+.btnConRead {
+    color: white;
+    font-size: 1m;
+    font-weight: 600;
+    background-color: #D993D2;
+    padding: 8px 16px;
+    border-radius: 12px;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 16px;
+}

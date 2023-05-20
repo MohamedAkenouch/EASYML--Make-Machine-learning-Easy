@@ -1,0 +1,33 @@
+.BtnConnectWG {
+
+}
+
+.BtnConnectWG .btnConnectWG {
+    color: white;
+    background-color: #4285F4;
+    padding: 2% 25%;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: 600;
+    text-decoration: none;
+    width: 80%;
+    height: auto;
+    border: none;
+}
+
+.BtnConnectWG .btnConnectWG:hover {
+    background-color: #2b75ec;
+    text-decoration: none;
+}
+
+@media (max-width: 780px) {
+    .BtnConnectWG .btnConnectWG {
+        padding: 2% 10%;
+    }
+}
+
+@media (max-width: 260px) {
+    .BtnConnectWG .btnConnectWG {
+        padding: 2%;
+    }
+}

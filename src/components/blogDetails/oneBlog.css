@@ -1,0 +1,40 @@
+#block{
+    border-color: white;
+    
+}
+
+#imgg{
+    width: 217px;
+    height: 170px;
+    margin: 10px;
+}
+.linkk{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 85%;
+    color: #850B0B;
+}
+#date{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+#ttitle{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    
+
+}
+#line{
+    border: 1px solid #000000;
+    transform: rotate(0.13deg);
+    
+    
+}

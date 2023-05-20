@@ -1,0 +1,70 @@
+
+.Auth {
+    margin-top: 6%;
+}
+
+.BtnConnectWG .btnConnectWG {
+    color: white;
+    background-color: #4285F4;
+    padding: 2% 25%;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: 600;
+    text-decoration: none;
+    width: 80%;
+    height: auto;
+    border: none;
+}
+
+.BtnConnectWG .btnConnectWG:hover {
+    background-color: #2b75ec;
+    text-decoration: none;
+}
+
+.linkToHome {
+    text-decoration: none;
+}
+
+.linkToHome:hover {
+    text-decoration: none;
+}
+
+.youDHA {
+    text-align: right;
+}
+
+.buttonSwitch {
+    border: none;
+    background-color: none;
+    background: none;
+}
+.form {
+    width: 80%;
+    display: block;
+    margin-left: 7%;
+}
+
+.TextFieldInput{
+    min-width: 100%;
+    font-size: 1.1em;
+    padding: 0.8em 1em 0.8em 0.8em;
+    margin: 0.4em 0;
+    border: none;
+    outline: none;
+    background: #FBEEFF;
+    border-radius: 6px;
+}
+
+
+
+@media (max-width: 780px) {
+    .BtnConnectWG .btnConnectWG {
+        padding: 2% 10%;
+    }
+}
+
+@media (max-width: 260px) {
+    .BtnConnectWG .btnConnectWG {
+        padding: 2%;
+    }
+}

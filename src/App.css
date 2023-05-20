@@ -1,0 +1,196 @@
+/* Style the header with a grey background and some padding */
+.header {
+    overflow: hidden;
+    padding: 20px 10px;
+    height: 3.8em;
+    background-color: #f1f1f1; 
+    background-size: cover;
+    background-image: url('/images/header.png');
+    background-position: center center;
+    background-color: rgba(255, 255, 255, 0.2);
+
+  
+  
+  
+  }
+
+  .header2 {
+   background-color:  rgba(53, 29, 138, 0.7);
+  
+  
+  
+  
+  
+  }
+  
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  .header-link {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  
+  
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    background-color: rgb(138, 29, 123,0.7);
+  }
+  .header-link-logo {
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    background-color: rgb(138, 29, 123,0.9);
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: rgb(138, 29, 123, 0.5);
+    color:white;
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+    background-color: rgb(138, 29, 123,0.7);
+    
+    color: white;
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+  float: right;
+  }
+  
+  .pagex{
+  padding: 100px;
+  background-size: cover;
+  background-image:linear-gradient( to bottom,  rgb(138, 29, 123, 0.5), rgba(0,0,255,0.5)), url('images/page.png');
+  
+  }
+  
+  .pagex h1{
+  margin: 0 auto;
+  width: 100px; 
+  color: white;
+  
+  }
+  .btn {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+  }
+  
+  .btn-block {
+    display: block;
+    width: 100%;
+  }
+  
+  .blog-block{
+    font-family:garamond;
+    
+  
+    margin-left: 10%;
+    
+  }
+  .blog-block h6{
+    font-size: small;
+    color: #000000A6;
+    ;
+  }
+  .blog-block h3{
+    font-size: x-large;
+    font-weight: bolder;
+  }
+  .blog-block h4{
+    font-weight: 300;
+    font-size: 16px;
+  }
+  .blogJ{
+    display: flex;
+    margin: 2% 10%;
+    background-color: #D993D2;
+    font-family:garamond;
+    
+  }
+  form {
+    margin-bottom: 40px;
+    width:50%
+  }
+  
+  .form-control {
+    margin: 20px 0;
+  }
+  
+  
+  
+  .form-control input {
+    width: 100%;
+    height: 40px;
+    margin: 5px;
+    padding: 3px 7px;
+    font-size: 17px;
+    border: none;
+    background-color: #FBEEFF;
+    color:#99879D
+  }
+  
+  /*   -----------text--------------------*/
+  .hr {
+    /* centre verticalement les enfants entre eux */
+    align-items: center;
+  
+    /* active flexbox */
+    display: flex;
+  
+    /* garde le texte centré s’il passe sur plusieurs lignes ou si flexbox n’est pas supporté */
+    text-align: center;
+  }
+  
+  .hr::before,
+  .hr::after {
+    /* la couleur est volontairement absente ; ainsi elle sera celle du texte */
+    border-top: .0625em solid;
+  
+    /* nécessaire pour afficher les pseudo-éléments */
+    content: "";
+  
+    /* partage le reste de la largeur disponible */
+    flex: 1;
+  
+    /* espace les traits du texte */
+    margin: 0 .5em;
+  }
+  
+  /*-----------------------------------------*/

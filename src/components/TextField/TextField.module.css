@@ -1,0 +1,20 @@
+.TextField {
+
+}
+
+.TextFieldInput{
+    min-width: 76%;
+    font-size: 1.1em;
+    padding: 0.8em 1em 0.8em 0.8em;
+    margin: 0.4em 0;
+    border: none;
+    outline: none;
+    background: #FBEEFF;
+    border-radius: 6px;
+}
+
+@media (max-width: 575px) {
+    .lineCenter{
+        width: 18%;
+    }
+}
